@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkeliftech_test=self.webpackChunkeliftech_test||[]).push([[95],{95:function(e,t,c){c.r(t);c(791);var n=c(184);t.default=function(){return(0,n.jsx)("div",{children:"CartPage"})}}}]);
+//# sourceMappingURL=95.ba3e169d.chunk.js.map

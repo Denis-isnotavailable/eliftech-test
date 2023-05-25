@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/95.ba3e169d.chunk.js","mappings":"2IAQA,UANiB,WACf,OACEA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,YAET,C","sources":["pages/CartPage/CartPage.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst CartPage = () => {\r\n  return (\r\n    <div>CartPage</div>\r\n  )\r\n}\r\n\r\nexport default CartPage"],"names":["_jsx","children"],"sourceRoot":""}
