@@ -49,3 +49,17 @@ export const setShopId = createAsyncThunk("cart/setShopId", (data) => {
 export const setDishes = createAsyncThunk("cart/setDishes", (data) => {
     return data;
 });
+
+// REMOVE DISH FROM CART
+export const removeDish = createAsyncThunk("cart/removeDish", (id) => {
+    return id;
+});
+
+// CHANGE QUANTITY
+export const changeDishQuantity = createAsyncThunk("cart/changeDishQuantity", (data) => {
+    return data;
+});
+
+// CLEAN THE CART
+export const cleanCart = createAsyncThunk("cart/cleanCart", () => {
+});

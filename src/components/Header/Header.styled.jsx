@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 export const HeaderStyled = styled.header`
     padding: 18px 50px;
 
-    background-color: #eae3e3;
+    background-color: #cccaca;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 
     ul {
@@ -23,15 +23,15 @@ export const NavLinkStyled = styled(NavLink)`
     text-decoration: none;    
 
     font-size: 18px;
-
+    color: #383d96;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);     
 
     &.active {
-        color: #c30b0b;   
+        color: #080b4e;   
     }
 
     :hover:not(.active),
     :focus:not(.active) {        
-        color: #8e74bc;
+        color: #7f3df3;
     }
 `;

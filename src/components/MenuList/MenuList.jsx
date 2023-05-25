@@ -10,7 +10,14 @@ const MenuList = ({ currentShopId }) => {
 
     return (
         <MenuListStyled>
-            {!currentShopId ? "Choose Shop" : currentMenu.map(dish => <MenuItem key={dish._id} dish={dish} />)}           
+            {!currentShopId ? "Choose Shop" :
+                currentMenu?.map(dish =>
+                    <MenuItem
+                        key={dish._id}
+                        dish={dish}
+                        currentShopId={currentShopId}
+                    />
+                )}           
         </MenuListStyled>
     )
 };
